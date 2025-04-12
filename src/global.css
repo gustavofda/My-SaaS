@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 @font-face {
   font-family: 'Segoe UI Symbol';
   src: url('/fonts/segoe-ui-symbol.woff2') format('woff2'),
