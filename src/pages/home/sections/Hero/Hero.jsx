@@ -1,9 +1,9 @@
 function Hero () {
     return (
         <div>
-            <h1>Hello World, aqui está o componente hero </h1>
+            <h1>Aqui está o componente hero </h1>
 
-            <p>Hero está aqui </p>
+            <p>Aqui será a página central do sistema</p>
         </div>
     )
 }
