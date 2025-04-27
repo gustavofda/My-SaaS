@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Hero from "./pages/home/sections/Hero/Hero";
+import Auth from "./pages/home/sections/Auth/Auth";
 import './global.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
             <Route path="/login" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/hero" element={<Hero />} />
+            <Route path="/auth" element={<Auth />} />
         </Routes>
     );
 }
