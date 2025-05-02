@@ -18,8 +18,7 @@ function Login() {
     };
 
     return (
-        <div className="flex h-screen overflow-hidden bg-blue-500">
-           
+        <div className="flex h-screen overflow-hidden bg-gray-100">
             <div className="hidden md:flex w-1/2 items-center justify-center h-full">
                 <img
                     src="/assets/images/Login.png"
@@ -27,18 +26,20 @@ function Login() {
                     className="max-w-full max-h-full object-contain"
                 />
             </div>
-           
             <div className="w-full md:w-1/2 flex flex-col justify-center bg-white h-full relative">
-              
                 <div className="absolute top-8 left-8 flex flex-col items-start">
                     <div className="flex flex-col items-center">
                         <h1 className="text-2xl font-bold text-gray-800 text-center">OLÁ, BEM-VINDO</h1>
                         <div className="w-24 h-1 bg-blue-500 rounded mt-2 mx-auto" />
                     </div>
                 </div>
-               
                 <div className="w-full max-w-md p-8 rounded-lg shadow-md mx-auto">
-                    <h1 className="text-2xl font-bold text-center mb-6 mt-16 text-white md:text-gray-800">CONSULTORIA COMERCIAL</h1>
+                    <h1 className="text-2xl font-bold text-center mb-2 mt-16 text-white md:text-gray-800">
+                    SYNAPSE
+                    </h1>
+                    <p className="text-center text-gray-500 mb-6 text-sm">
+                        FAÇA LOGIN PARA ENTRAR EM SUA CONTA COLABORADOR
+                    </p>
                     <form onSubmit={handleLogin} className="space-y-4">
                         <div>
                             <div className="relative">
