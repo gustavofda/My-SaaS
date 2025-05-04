@@ -30,14 +30,16 @@ function Login() {
                 <div className="absolute top-8 left-8 flex flex-col items-start">
                     <div className="flex flex-col items-center">
                         <h1 className="text-2xl font-bold text-gray-800 text-center">OLÁ, BEM-VINDO</h1>
-                        <div className="w-24 h-1 bg-blue-500 rounded mt-2 mx-auto" />
+                        <div className="w-24 h-1 rounded mt-2 mx-auto" style={{ backgroundColor: "#0f2f76" }} />
                     </div>
                 </div>
                 <div className="w-full max-w-md p-8 rounded-lg shadow-md mx-auto">
-                    <h1 className="text-2xl font-bold text-center mb-2 mt-16 text-white md:text-gray-800">
-                    SYNAPSE
-                    </h1>
-                    <p className="text-center text-gray-500 mb-6 text-sm">
+                    <img
+                        src="/assets/images/Logo.png"
+                        alt="Logo Synapse"
+                        className="h-60 mx-auto mb-0 mt-2" // Volta ao jeito anterior
+                    />
+                    <p className="text-center text-gray-500 mb-4 mt-0 text-sm">
                         FAÇA LOGIN PARA ENTRAR EM SUA CONTA COLABORADOR
                     </p>
                     <form onSubmit={handleLogin} className="space-y-4">
@@ -73,7 +75,8 @@ function Login() {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                            className="w-full text-white font-bold py-2 px-4 rounded hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                            style={{ backgroundColor: "#0f2f76", focusRingColor: "#0f2f76" }}
                         >
                             VALIDAR
                         </button>
