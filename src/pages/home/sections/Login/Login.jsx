@@ -39,7 +39,7 @@ function Login() {
                         alt="Logo Synapse"
                         className="h-60 mx-auto mb-0 mt-2" 
                     />
-                    <p className="text-center text-gray-500 mb-4 mt-0 text-sm">
+                    <p className="text-center text-gray-500 mb-8 mt-0 text-sm">
                         FAÇA LOGIN PARA ENTRAR EM SUA CONTA COLABORADOR
                     </p>
                     <form onSubmit={handleLogin} className="space-y-4">
