@@ -89,6 +89,6 @@ export const menu = [
   {
     label: "Sair",
     icon: ArrowRightOnRectangleIcon,
-    to: "/logout",
+    to: "/Login",
   },
 ];
